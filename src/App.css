@@ -21,3 +21,9 @@
 .AppIntro {
   font-size: large;
 }
+
+/* @media (min-width: 600px) {
+  .App {
+    width: 500px;
+  }
+} */

@@ -54,7 +54,7 @@ class QuestionGenerator extends Component {
       const currentQuestion = this.props.questions.find(question => question.id === this.state.currentQuestionId);
 
       if(!this.state.quizEnded) {
-        const possibleAnswers = this.props.questions.find(qd => qd.id === this.state.currentQuestionId).answers;
+        const possibleAnswers = this.props.questions.find(question => question.id === this.state.currentQuestionId).answers;
         singleQuestion = <SingleQuestion question={currentQuestion} />;
         answerOptions = <AnswerOptions answers={possibleAnswers}
                             answerChosenHandler={this.answerChosenHandler} />;

@@ -6,8 +6,7 @@ const score = (props) => {
     return (
       <div>
         <h2 className={classes.Score}>
-          Your were able to answer {props.score} questions out of {props.totalQuestions}!
-          Your score is {scorePercentage}%
+          You were able to answer {props.score} questions out of {props.totalQuestions}! Your score is {scorePercentage}%
         </h2>
         <button onClick={() => props.reset() } className={classes.ResetButton}>Try Again</button>
       </div>
