@@ -1,0 +1,22 @@
+.Score {
+    width: 60%;
+    margin: auto;
+    height: 40%;
+    padding: 3em 3em 1em;
+    background: #ccd1d6;
+    border: 1px solid gray;
+}
+
+.ResetButton {
+    position: relative;
+    top: 10px;
+    padding: 0.5em 2em;
+    color: white;
+    background: rgb(109, 188, 252);
+    transition: all 1s ease;
+}
+
+.ResetButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 1px 6px 0px #62d9f7;
+}

@@ -1,0 +1,7 @@
+export const SET_QUESTIONS = 'SET_QUESTIONS';
+export const FETCH_QUESTIONS_FAILED = 'FETCH_QUESTIONS_FAILED';
+
+export const ADD_USER_ANSWER = 'ADD_USER_ANSWER';
+export const RESET_QUIZ = 'RESET_QUIZ';
+
+

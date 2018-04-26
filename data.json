@@ -1,0 +1,33 @@
+{
+  "questions" : [
+      {
+        "id": 1,
+        "category": "JavaScript Basic Knowledge",
+        "question": "Which of the following is a NOT a valid JavaScript data type?",
+        "answers": [
+                    {"id": 1, "option": "Null", "score": 0},
+                    {"id": 2, "option": "Undefined", "score": 0},
+                    {"id": 3, "option": "Deque", "score": 1}
+        ]
+      },
+      {
+        "id": 2,
+        "category": "JavaScript Basic Knowledge",
+        "question": "Java and JavaScript refer to the same programming language",
+        "answers": [
+              {"id": 1, "option": "True", "score": 0},
+              {"id": 2, "option": "False", "score": 1}
+        ]
+      },
+      {
+        "id": 3,
+        "category": "JavaScript Basic Knowledge",
+        "question": "Which of the following variable declarations gets hoisted in JavaScript?",
+        "answers": [
+              {"id": 1, "option": "Let", "score": 0},
+              {"id": 2, "option": "Var", "score": 1},
+              {"id": 3, "option": "Const", "score": 0}
+        ]
+      }
+  ]
+}

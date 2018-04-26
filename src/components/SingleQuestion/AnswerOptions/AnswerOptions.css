@@ -1,0 +1,20 @@
+.AnswerOptions {
+    width: 60%;
+    padding: 1em;
+    margin: 1em auto;
+    background: white;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+.AnswerOptions:nth-of-type(1) {
+    margin-top: 2em;
+}
+
+.AnswerOptions:hover {
+    border-bottom: 2px solid rgb(2, 140, 204);
+    box-shadow: 0px 1px 12px 0px rgb(2, 147, 204);
+}
+
+
